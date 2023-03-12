@@ -51,6 +51,7 @@ p{
 
 body{
     width: 100%;
+    overflow-y: scroll;
 }
 
 .resize {
@@ -126,9 +127,47 @@ body{
     color: #088178;
 }
 
+/*filters*/
+#filters{
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#filters2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#filters li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#filters2 li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    /*border-bottom: 1px solid;
+    border-width: 3px;*/
+}
+
+#filters2 li a:hover,
+#filters2 li a.active{
+    color: #088178;
+    border-bottom: 1px solid;
+    border-width: 3px;
+    transition: 0.1s ease;
+}
+
 
 /* 2o meros*/
-
 #product1{
     text-align: center;
 }
@@ -227,14 +266,24 @@ body{
     height: 100%;
 }
 
-/*Products Images*/
-#images{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px;
+/*Product Images*/
+
+#imagescat{
+    text-align: center;
 }
+
+#imagescat{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#imagescat img{
+    width: 800px;
+    height: 400px;
+}
+
 
 /*Single Product*/
 #prodetails{
@@ -275,5 +324,9 @@ img{
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+.section-img {
+    padding: 40px 80px;
 }
 
