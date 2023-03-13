@@ -64,7 +64,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #E3E6F3;
+    background: #e8e4de;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
@@ -98,7 +98,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #E3E6F3;
+    background:#e8e4de;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
@@ -132,7 +132,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
@@ -170,6 +169,7 @@ body{
 /* 2o meros*/
 #product1{
     text-align: center;
+    background: white;
 }
 
 #product1 .pro-container{
