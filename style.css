@@ -90,7 +90,7 @@ body{
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: #088178;
+    color: #5b5d5e;
 }
 
 /*navbar2*/
@@ -124,7 +124,7 @@ body{
 
 #navbar2 li a:hover,
 #navbar2 li a.active{
-    color: #088178;
+    color: #5b5d5e;
 }
 
 /*filters*/
@@ -153,13 +153,11 @@ body{
     font-weight: 600;
     color: #1a1a1a;
     transition: 0.3s ease;
-    /*border-bottom: 1px solid;
-    border-width: 3px;*/
 }
 
 #filters2 li a:hover,
 #filters2 li a.active{
-    color: #088178;
+    color: #5b5d5e;
     border-bottom: 1px solid;
     border-width: 3px;
     transition: 0.1s ease;
@@ -220,7 +218,7 @@ body{
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
-    color: #088178;
+    color: #5b5d5e;
 }
 
 /*info*/
@@ -270,6 +268,7 @@ body{
 
 #imagescat{
     text-align: center;
+    background-color: white;
 }
 
 #imagescat{
