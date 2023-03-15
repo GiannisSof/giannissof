@@ -222,6 +222,11 @@ body{
 }
 
 /*info*/
+.resize3 {
+    width: 435px;
+    height: auto;
+}
+
 #contact-details{
     display: flex;
     align-items: center;
