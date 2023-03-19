@@ -308,6 +308,20 @@ body{
     margin-right: 50px;
 }
 
+.single-pro-image{
+    float: right;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
 #prodetails .single-pro-image img{
     border-radius: 20px;
 }

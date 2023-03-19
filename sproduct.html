@@ -38,6 +38,20 @@
         <section id="prodetails" class="section-p1">
             <div class="single-pro-image">
                 <img src="img/product1.png" width="100%" id="MainImage" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/product1.png" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product2.png" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product3.png" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product4.png" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                </div>
             </div>
             <div class="single-pro-details">
                 <h6>Υπνοδωμάτιο</h6>
@@ -46,8 +60,15 @@
                 <h4>Πληροφορίες Προϊόντος</h4>
                 <span>qwfwefqwffqwefqwfqweqwefwefwefqefqwqwefqwefqwefqef</span>
             </div>
-
         </section>
+
+        <script>
+            function MyFunction(smalling)
+            {
+                var fullimg = document.getElementById("MainImage");
+                fullimg.src = smalling.src;
+            }
+        </script>
 
     </body>
 </html>
