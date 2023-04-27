@@ -7,6 +7,12 @@
     font-family: 'Spartan', sans-serif;
 }
 
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 0; /* change this to whatever height you want it */
+}
+
 h1{
     font-size: 50px;
     line-height: 64px;
