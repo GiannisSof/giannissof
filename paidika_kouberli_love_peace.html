@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="el">
+
+    <head>
+        <title>Triantafillakis Home Linen</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img class="resize" src="img/logo2.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Αρχική</a></li>
+                    <li><a class="active" href="products.html">Προϊόντα</a></li>
+                    <li><a href="info.html">Πληροφορίες</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="header2">
+            <div>
+                <ul id="navbar2">
+                    <li><a href="upnodomatio.html">Υπνοδωμάτιο</a></li>
+                    <li><a href="saloni.html">Σαλόνι</a></li>
+                    <li><a href="kouzina.html">Κουζίνα</a></li>
+                    <li><a href="mpanio.html">Μπάνιο</a></li>
+                    <li><a class="active" href="paidika.html">Παιδικά</a></li>
+                    <li><a href="brefika.html">Βρεφικά</a></li>
+                    <li><a href="aromata.html">Αρώματα</a></li>
+                    <li><a href="prosfores.html">Προσφορές</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="filters">
+            <div>
+                <ul id="filters2" style="text-align: center;">
+                    <li><a href="paidikasentonia.html">Σεντόνια</a></li>
+                    <li><a class="active" href="paidikakouberli.html">Κουβερλί</a></li>
+                    <li><a href="paidikeskoubertes.html">Κουβέρτες</a></li>
+                    <li><a href="paidikapaplomata.html">Παπλώματα</a></li>
+                    <li><a href="paidikespaplomatothikes.html">Παπλωματοθήκες</a></li>
+                    <li><a href="paidikespetsetes.html">Πετσέτες</a></li>
+                    <li><a href="paidikampournouzia.html">Μπουρνούζια</a></li>
+                    <li><a href="paidikeskourtinesxaliakalathia.html">Κουρτίνες-Χαλιά-Καλάθια</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="img/products/paidika_kouberli/4.LOVE & PEACE/LOVE-&-PEACE-1.jpg" width="100%" id="MainImage" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/products/paidika_kouberli/4.LOVE & PEACE/LOVE-&-PEACE-1.jpg" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/paidika_kouberli/4.LOVE & PEACE/LOVE-&-PEACE-2.jpg" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/paidika_kouberli/4.LOVE & PEACE/LOVE-&-PEACE-3.jpg" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                </div>
+            </div>
+            <div class="single-pro-details">
+                <h6>NEF NEF</h6>
+                <h4>Κουβερλί Love & Peace</h4>
+                <span>
+                        <br>Κουβερλί παιδικό, διάστασης 180×220cm, με ύφασμα από 100% microfiber και γέμισμα 100% polyester βάρους 200gr/m<sup>2</sup>. Συνδυάζεται με ιδίου σχεδίου σετ σεντόνια και σετ πετσέτες.</br>
+                        <p></p>
+                        <pre style="font-weight: 600;"><span style="text-decoration: line-through; text-decoration-thickness: 2px; color: gray;">33,00€</span> <span style="color: rgb(168, 0, 0)">-10%</span> <span style="font-weight: bold; font-size: 20px;">29,70€</span></pre>
+                </span>
+            </div>
+        </section>
+
+        <script>
+            function MyFunction(smalling)
+            {
+                var fullimg = document.getElementById("MainImage");
+                fullimg.src = smalling.src;
+            }
+        </script>
+
+    </body>
+</html>
