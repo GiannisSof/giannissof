@@ -38,59 +38,51 @@
         <section id="filters">
             <div>
                 <ul id="filters2">
-                    <li><a href="brefikasentonia.html">Σεντόνια</a></li>
+                    <li><a class="active" href="brefikasentonia.html">Σεντόνια</a></li>
                     <li><a href="brefikeskoubertes.html">Κουβέρτες</a></li>
                     <li><a href="brefikakouberlipaplomatapanteskounoupieres.html">Κουβερλί-Παπλώματα-Πάντες-Κουνουπιέρες</a></li>
                     <li><a href="brefikespetsetes.html">Πετσέτες</a></li>
                     <li><a href="brefikeskapes.html">Κάπες</a></li>
                     <li><a href="brefikampournouzia.html">Μπουρνούζια</a></li>
                     <li><a href="brefikeskourtinesxaliamaksilariakalathia.html">Κουρτίνες-Χαλιά-Μαξιλάρια-Καλάθια</a></li>
-                    <li><a class="active" href="seltedakiaallaksieres.html">Σελτεδάκια-Αλλαξιέρες</a></li>
+                    <li><a href="seltedakiaallaksieres.html">Σελτεδάκια-Αλλαξιέρες</a></li>
                 </ul>
             </div>
         </section>
 
-        <section id="product1" class="section-p1">
-            <div class="pro-container">
-                
-                <div class="pro" onclick="window.location.href='seltedaki_mellow_50x70.html';">
-                    <img src="img/products/brefika_seltedakia-allaksieres/SELTEDAKIA/MELLOW (1).jpg" alt="">
-                    <div class="des">
-                        <span>NEF NEF</span>
-                        <h5>Σελτεδάκι Mellow 50×70</h5>
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="img/products/brefika_sentonia/KOUNIAS/6.ANIMAL WAY/ANIMAL-WAY-1.jpg" width="100%" id="MainImage" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/products/brefika_sentonia/KOUNIAS/6.ANIMAL WAY/ANIMAL-WAY-1.jpg" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/brefika_sentonia/KOUNIAS/6.ANIMAL WAY/ANIMAL-WAY-2.jpg" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/brefika_sentonia/KOUNIAS/6.ANIMAL WAY/ANIMAL-WAY-3.jpg" width="100%" class="small-img" alt="" onclick="MyFunction(this)">
                     </div>
                 </div>
-                <div class="pro" onclick="window.location.href='allaksiera_taksidiou_soft_aqua50x50.html';">
-                    <img src="img/products/brefika_seltedakia-allaksieres/ALLAKSIERES/1.SOFT AQUA.jpg" alt="">
-                    <div class="des">
-                        <span>NEF NEF</span>
-                        <h5>Αλλαξιέρα Ταξιδιού Soft Aqua 50×70+20</h5>
-                    </div>
-                </div>
-                <div class="pro" onclick="window.location.href='allaksiera_taksidiou_soft_english_rose_50x50.html';">
-                    <img src="img/products/brefika_seltedakia-allaksieres/ALLAKSIERES/2.SOFT ENGLISH ROSE.jpg" alt="">
-                    <div class="des">
-                        <span>NEF NEF</span>
-                        <h5>Αλλαξιέρα Ταξιδιού Soft English Rose 50×70+20</h5>
-                    </div>
-                </div>
-                <div class="pro" onclick="window.location.href='allaksiera_soft_english_aqua_50x70.html';">
-                    <img src="img/products/brefika_seltedakia-allaksieres/ALLAKSIERES/3.SOFT AQUA 50X70.jpg" alt="">
-                    <div class="des">
-                        <span>NEF NEF</span>
-                        <h5>Αλλαξιέρα Soft English Aqua 50×70</h5>
-                    </div>
-                </div>
-                <div class="pro" onclick="window.location.href='allaksiera_taksidiou_soft_english_rose_50x70.html';">
-                    <img src="img/products/brefika_seltedakia-allaksieres/ALLAKSIERES/4.SOFT ENGLISH ROSE 50X70.jpg" alt="">
-                    <div class="des">
-                        <span>NEF NEF</span>
-                        <h5>Αλλαξιέρα Soft English Rose 50×70</h5>
-                    </div>
-                </div>
-
+            </div>
+            <div class="single-pro-details">
+                <h6>NEF NEF</h6>
+                <h4>Βρεφικά Σετ Σεντόνια Κούνιας Animal Way</h4>
+                <span>
+                        <br>Βρεφικά σεντόνια κούνιας σετ 3 τεμαχίων, από 100% βαμβάκι. Το σετ περιλαμβάνει ένα κατωσέντονο και ένα πανωσέντονο διάστασης 120×170cm και μία μαξιλαροθήκη διάστασης 30×40cm.</br>
+                        <p></p>
+                        <pre style="font-weight: 600;"><span style="text-decoration: line-through; text-decoration-thickness: 2px; color: gray;">26,00€</span> <span style="color: rgb(168, 0, 0)">-10%</span> <span style="font-weight: bold; font-size: 20px;">23,40€</span></pre>
+                </span>
             </div>
         </section>
-    </body>
 
+        <script>
+            function MyFunction(smalling)
+            {
+                var fullimg = document.getElementById("MainImage");
+                fullimg.src = smalling.src;
+            }
+        </script>
+
+    </body>
 </html>

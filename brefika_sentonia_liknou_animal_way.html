@@ -38,9 +38,9 @@
         <section id="filters">
             <div>
                 <ul id="filters2">
-                    <li><a href="brefikasentonia.html">Σεντόνια</a></li>
+                    <li><a class="active" href="brefikasentonia.html">Σεντόνια</a></li>
                     <li><a href="brefikeskoubertes.html">Κουβέρτες</a></li>
-                    <li><a class="active" href="brefikakouberlipaplomatapanteskounoupieres.html">Κουβερλί-Παπλώματα-Πάντες-Κουνουπιέρες</a></li>
+                    <li><a href="brefikakouberlipaplomatapanteskounoupieres.html">Κουβερλί-Παπλώματα-Πάντες-Κουνουπιέρες</a></li>
                     <li><a href="brefikespetsetes.html">Πετσέτες</a></li>
                     <li><a href="brefikeskapes.html">Κάπες</a></li>
                     <li><a href="brefikampournouzia.html">Μπουρνούζια</a></li>
@@ -50,50 +50,29 @@
             </div>
         </section>
 
-        <section id="product1" class="section-p1">
-            <div class="pro-container">
-                <div class="pro">
-                    <img src="img/product1.png" alt="">
-                    <div class="des">
-                        <span>Brand</span>
-                        <h5>Product Name</h5>
-                        <h4>99€</h4>
-                    </div>
-                </div>
-                <div class="pro">
-                    <img src="img/product2.png" alt="">
-                    <div class="des">
-                        <span>Brand</span>
-                        <h5>Product Name</h5>
-                        <h4>99€</h4>
-                    </div>
-                </div>
-                <div class="pro">
-                    <img src="img/product3.png" alt="">
-                    <div class="des">
-                        <span>Brand</span>
-                        <h5>Product Name</h5>
-                        <h4>99€</h4>
-                    </div>
-                </div>
-                <div class="pro">
-                    <img src="img/product4.png" alt="">
-                    <div class="des">
-                        <span>Brand</span>
-                        <h5>Product Name</h5>
-                        <h4>99€</h4>
-                    </div>
-                </div>
-                <div class="pro">
-                    <img src="img/product5.png" alt="">
-                    <div class="des">
-                        <span>Brand</span>
-                        <h5>Product Name</h5>
-                        <h4>99€</h4>
-                    </div>
-                </div>
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="img/products/brefika_sentonia/LIKNOU/ANIMAL-WAY.jpg" width="100%" id="MainImage" alt="">
+            </div>
+
+            <div class="single-pro-details">
+                <h6>NEF NEF</h6>
+                <h4>Βρεφικά Σετ Σεντόνια Λίκνου 2τμχ Animal Way</h4>
+                <span>
+                        <br>Βρεφικά σεντόνια λίκνου σετ 2 τεμαχίων, από 100% βαμβάκι. Το σετ περιλαμβάνει ένα κατωσέντονο και ένα πανωσέντονο διάστασης 70×120cm.</br>
+                        <p></p>
+                        <pre style="font-weight: 600;"><span style="text-decoration: line-through; text-decoration-thickness: 2px; color: gray;">12,00€</span> <span style="color: rgb(168, 0, 0)">-10%</span> <span style="font-weight: bold; font-size: 20px;">10,80€</span></pre>
+                </span>
             </div>
         </section>
-    </body>
 
+        <script>
+            function MyFunction(smalling)
+            {
+                var fullimg = document.getElementById("MainImage");
+                fullimg.src = smalling.src;
+            }
+        </script>
+
+    </body>
 </html>
